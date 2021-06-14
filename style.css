@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+#showhide{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    margin-top: 55px;
+    border-width: 0px;
+    cursor: pointer;
+}
+#id{
+    padding-left: 15px;
+    margin-top: 50px;
+    font-size: 22.5px;
+}
+#ok{
+    font-size: 28.75px;
+    background-color: black;
+    color: white;
+    border-width: 0px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}

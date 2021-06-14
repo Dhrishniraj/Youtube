@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+    <link rel="shortcut icon" href="Youtube.png" />
+      <link rel="stylesheet" href="style.css">
+      <script>
+      var mainlink = "https://www.youtube.com/embed/"
+var id = (document.getElementById("id").value);
+var iframelink = mainlink + id
+function ok() {
+    id = (document.getElementById("id").value);
+    iframelink = mainlink + id
+    document.getElementById("video").src=iframelink;
+}
+      </script>
+    <title>Youtube video
+    </title>
+  </head>
+  <body>
+    <iframe id="video" width="1366" height="600" src="https://www.youtube.com/embed/l0eM1_JVqHE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+      <button id="showhide">Hide</button><br>
+      <input id="id" placeholder="Id" value="l0eM1_JVqHE"><br>
+      <button id="ok" onclick="ok()">Okay</button>
+  </body>
+</html>
